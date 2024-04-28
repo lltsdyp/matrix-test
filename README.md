@@ -6,5 +6,8 @@
 |mmul1|基准程序，以此程序作为无优化版本|1920.427|
 |mmul2|+改变循环递归次序|214.505|
 |mmul3|+'-O2'编译选项|69.985|
-|mmul4|+分块(Blocking)技术|54.315|
-|mmul5|+循环展开|Need to be tested|
+|mmul4(Block size=32)|+分块(Blocking)技术|54.315|
+|mmul4(Block size=128)|*三组Block size值中表现最佳，其后的优化都以128作为Block size的值|49.564|
+|mmul4(Block size=256)| |50.825|
+|mmul5|+循环展开|39.991|
+|mmul6|+OpenMP多线程|10.068|

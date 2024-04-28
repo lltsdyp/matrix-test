@@ -9,7 +9,7 @@
 long long outputMatrix[SIZE][SIZE];
 
 // Experimental
-#define BLOCK_SIZE 32
+#define BLOCK_SIZE 128
 #define BLOCK_NUM SIZE / BLOCK_SIZE
 
 int main()
