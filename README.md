@@ -10,4 +10,6 @@
 |mmul4(Block size=128)|*三组Block size值中表现最佳，其后的优化都以128作为Block size的值|49.564|
 |mmul4(Block size=256)| |50.825|
 |mmul5|+循环展开|39.991|
-|mmul6|+OpenMP多线程|10.068|
+|mmul6|+OpenMP多线程（num_threads(4)）|10.068|
+|mmul7|+AVX指令集|4.351|
+|mmul8|+AVX指令集循环展开|3.323|

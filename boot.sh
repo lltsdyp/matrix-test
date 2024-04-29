@@ -5,3 +5,5 @@
 ./bin/mmul4 > ./report/mmul4.output &
 ./bin/mmul5 > ./report/mmul5.output &
 ./bin/mmul6 > ./report/mmul6.output &
+./bin/mmul7 > ./report/mmul7.output &
+./bin/mmul8 > ./report/mmul8.output &
